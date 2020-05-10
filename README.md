@@ -1,6 +1,12 @@
 # DeepRL-LTLf
 Deep Reinforcement Learning with LTLf/LDLf goals.
 
+
+
+![Reward](/img/reward.png)
+
+
+
 ### Requirements
 ------------
 *   [gym](https://github.com/openai/gym)
