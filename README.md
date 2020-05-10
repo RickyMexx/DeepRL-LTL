@@ -1,6 +1,45 @@
 # DeepRL-LTLf
 Deep Reinforcement Learning with LTLf/LDLf goals.
 
+### Requirements
+------------
+*   [gym](https://github.com/openai/gym)
+*   [TensorboardX](https://github.com/lanpa/tensorboardX)
+*   [PyTorch](http://pytorch.org/)
+
+### Installation of RAEnv
+
+```
+cd ra-gym
+pip install -e .
+```
+
+### Installation of SAC
+
+```
+git clone https://github.com/pranz24/pytorch-soft-actor-critic
+cp sac_modular.py pytorch-soft-actor-critic
+```
+
+### Train Classic SAC
+
+```
+cd pytorch-soft-actor-critic
+python sac_modular.py --batch_size 64 --automatic_entropy_tuning True
+```
+
+### Train Modular SAC
+
+```
+cd pytorch-soft-actor-critic
+python sac_modular.py --batch_size 64 --automatic_entropy_tuning True --modular
+```
+
+
+
+
+
+
 ## References
 - Icarte, R. T., Klassen, T., Valenzano, R., & McIlraith, S. (2018, July). Using reward machines for high-level task specification and decomposition in reinforcement learning. In International Conference on Machine Learning (pp. 2107-2116).
 - Camacho, A., Icarte, R. T., Klassen, T. Q., Valenzano, R., & McIlraith, S. A. (2019, August). LTL and beyond: Formal languages for reward function specification in reinforcement learning. In Proceedings of the 28th International Joint Conference on Artificial Intelligence (IJCAI) (pp. 6065-6073).
