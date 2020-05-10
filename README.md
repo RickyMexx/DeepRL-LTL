@@ -1,22 +1,25 @@
 # DeepRL-LTLf
 The repository solves a Reinforcement Learning Task on a custom environment with a temporal component. The project implements some of the ideas behind the paper "Modular Deep Reinforcement Learning with Temporal Logic Specifications" (Lim Zun Yuan et al. [1]) using a modified Soft-Actor-Critic algorithm based on the Py-Torch implementation provided at [Py-Torch SAC](https://github.com/pranz24/pytorch-soft-actor-critic).
 
-## Requirements
+### Requirements
 ------------
 *   [gym](https://github.com/openai/gym)
 *   [TensorboardX](https://github.com/lanpa/tensorboardX)
 *   [PyTorch](http://pytorch.org/)
 
+
+
 ## The Environment
 The task is performed on a custom environment developed using Gym-OpenAI and consists in the agent (the ball) going through the two circles in a specified order: bottom-left, top-right. The 6-dimensional state consists of the position and velocity along the x and y axes and two binary values (one for each circle) specifying whether the agent has gone through a circle.   
 
 
-## Results
+### Results
 Two agents have been trained on the task: one given by the "classic" SAC algorithm with no modification, while a second one trained as described in the paper (Lim Zun Yuan et al. [1]) with a modular design that separates the task in two sub-goals. 
 
 ![sac_only](/img/sac_only.gif)
 ![sac_modular](/img/sac_modular.gif)
 ![Reward](/img/reward.png)
+
 
 
 ## Install
