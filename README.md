@@ -80,7 +80,11 @@ python sac_modular.py --batch_size 64 --automatic_entropy_tuning True --modular
 - [Giacomini Emanuele](https://github.com/EmanueleGiacomini)
 - [Ragno Alessio](https://github.com/spideralessio)
 - [Savoia Dylan](https://github.com/dylansavoia)
+
+
 <br>
+
+
 ## References
 - Lim Zun Yuan, Mohammadhosein Hasanbeig, Alessandro Abate, and Daniel Kroening. Modular Deep Reinforcement Learning with Temporal Logic Specifications. Department of Computer Science, University of Oxford.
 - Icarte, R. T., Klassen, T., Valenzano, R., & McIlraith, S. (2018, July). Using reward machines for high-level task specification and decomposition in reinforcement learning. In International Conference on Machine Learning (pp. 2107-2116).
