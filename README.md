@@ -1,9 +1,10 @@
 # DeepRL-LTLf
-The repository solves a Reinforcement Learning Task on a custom environment with a temporal component. The project implements some of the ideas behind the paper "Modular Deep Reinforcement Learning with Temporal Logic Specifications" (Lim Zun Yuan et al.) using a modified Soft-Actor-Critic algorithm based on the Py-Torch implementation provided at [Py-Torch SAC](https://github.com/pranz24/pytorch-soft-actor-critic).
+The repository implements a Reinforcement Learning Task on a custom environment using temporal logic specifications. The project is based on the paper "[Modular Deep Reinforcement Learning with Temporal Logic Specifications](https://arxiv.org/abs/1909.11591)" (Lim Zun Yuan et al.) using a modified Soft-Actor-Critic algorithm based on the Py-Torch implementation provided at [Py-Torch SAC](https://github.com/pranz24/pytorch-soft-actor-critic).
 
 <br>
 
 ## Table Of Contents
+*   [Project Webpage](https://rickymexx.github.io/DeepRL-LTLf/)
 *   [The Environment](#the-environment)
 *   [Results](#results)
 *   [installation](#installation)
