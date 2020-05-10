@@ -21,7 +21,9 @@ Two agents have been trained on the task: one given by the "classic" SAC algorit
 
 ![Reward](/img/reward.png)
 <br><br>
+
 ---------------------
+
 We show how SAC alone (on the left) can easily reach the first goal but fails to reach the second even though the state provides the agent with the information about having reached the first circle. The modular agent (on the right), instead, is able to completely solve the specified task.
 
 
@@ -74,7 +76,7 @@ python sac_modular.py --batch_size 64 --automatic_entropy_tuning True --modular
 
 
 ## References
-- Lim Zun Yuan, Mohammadhosein Hasanbeig, Alessandro Abate, and Daniel Kroening. Modular Deep Reinforcement Learning with Temporal Logic Specifications. Department of Computer Science, University of Oxford.
+- [1]: Lim Zun Yuan, Mohammadhosein Hasanbeig, Alessandro Abate, and Daniel Kroening. Modular Deep Reinforcement Learning with Temporal Logic Specifications. Department of Computer Science, University of Oxford.
 
 - Icarte, R. T., Klassen, T., Valenzano, R., & McIlraith, S. (2018, July). Using reward machines for high-level task specification and decomposition in reinforcement learning. In International Conference on Machine Learning (pp. 2107-2116).
 - Camacho, A., Icarte, R. T., Klassen, T. Q., Valenzano, R., & McIlraith, S. A. (2019, August). LTL and beyond: Formal languages for reward function specification in reinforcement learning. In Proceedings of the 28th International Joint Conference on Artificial Intelligence (IJCAI) (pp. 6065-6073).
