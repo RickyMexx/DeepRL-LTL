@@ -16,10 +16,13 @@ The task is performed on a custom environment developed using Gym-OpenAI and con
 ### Results
 Two agents have been trained on the task: one given by the "classic" SAC algorithm with no modification, while a second one trained as described in the paper (Lim Zun Yuan et al. [1]) with a modular design that separates the task in two sub-goals. 
 
-![sac_only](/img/sac_only.gif)
-![sac_modular](/img/sac_modular.gif)
 ![Reward](/img/reward.png)
 
+We show how SAC alone (on the left) can easily reach the first goal but fails to reach the second even though the state provides the agent with the information about having reached the first circle. The modular agent (on the right), instead, is able to completely solve the specified task.
+
+
+![sac_only](/img/sac_only.gif)
+![sac_modular](/img/sac_modular.gif)
 
 
 ## Install
