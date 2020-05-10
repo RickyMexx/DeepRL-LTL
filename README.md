@@ -30,7 +30,10 @@ We show how SAC alone (on the left) can easily reach the first goal but fails to
 
 
 <br>
+
 ## Installation
+
+<br>
 
 ### Requirements
 *   [gym](https://github.com/openai/gym)
