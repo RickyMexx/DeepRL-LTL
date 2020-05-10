@@ -1,5 +1,5 @@
 # DeepRL-LTLf
-The repository solves a Reinforcement Learning Task on a custom environment with a temporal component. The project implements some of the ideas behind the paper "Modular Deep Reinforcement Learning with Temporal Logic Specifications" (Lim Zun Yuan et al. [1]) using a modified Soft-Actor-Critic algorithm based on the Py-Torch implementation provided at [Py-Torch SAC](https://github.com/pranz24/pytorch-soft-actor-critic).
+The repository solves a Reinforcement Learning Task on a custom environment with a temporal component. The project implements some of the ideas behind the paper "Modular Deep Reinforcement Learning with Temporal Logic Specifications" (Lim Zun Yuan et al.) using a modified Soft-Actor-Critic algorithm based on the Py-Torch implementation provided at [Py-Torch SAC](https://github.com/pranz24/pytorch-soft-actor-critic).
 
 <br>
 
@@ -76,7 +76,7 @@ python sac_modular.py --batch_size 64 --automatic_entropy_tuning True --modular
 
 
 ## References
-- [1] Lim Zun Yuan, Mohammadhosein Hasanbeig, Alessandro Abate, and Daniel Kroening. Modular Deep Reinforcement Learning with Temporal Logic Specifications. Department of Computer Science, University of Oxford.
+- Lim Zun Yuan, Mohammadhosein Hasanbeig, Alessandro Abate, and Daniel Kroening. Modular Deep Reinforcement Learning with Temporal Logic Specifications. Department of Computer Science, University of Oxford.
 
 - Icarte, R. T., Klassen, T., Valenzano, R., & McIlraith, S. (2018, July). Using reward machines for high-level task specification and decomposition in reinforcement learning. In International Conference on Machine Learning (pp. 2107-2116).
 - Camacho, A., Icarte, R. T., Klassen, T. Q., Valenzano, R., & McIlraith, S. A. (2019, August). LTL and beyond: Formal languages for reward function specification in reinforcement learning. In Proceedings of the 28th International Joint Conference on Artificial Intelligence (IJCAI) (pp. 6065-6073).
