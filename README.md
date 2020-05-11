@@ -14,7 +14,8 @@ The repository implements a Reinforcement Learning Task on a custom environment 
 <br>
 
 ## The Environment
-The task is performed on a custom environment developed using Gym-OpenAI and consists in the agent (the ball) going through the two circles in a specified order: bottom-left, top-right. The 6-dimensional state consists of the position and velocity along the x and y axes and two binary values (one for each circle) specifying whether the agent has gone through a circle.   
+The task is performed on a custom environment developed using Gym-OpenAI and consists in the agent (the ball) going through the two circles in a specified order: bottom-left, top-right. The 6-dimensional state consists of the position and velocity along the x and y axes and two binary values (one for each circle) specifying whether the agent has gone through a circle. 
+
 ![sac_only](/img/env.png)
 
 <br>
