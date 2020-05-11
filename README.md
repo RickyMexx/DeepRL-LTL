@@ -4,11 +4,12 @@ The repository implements a Reinforcement Learning Task on a custom environment 
 <br>
 
 ## Table Of Contents
-*   [Project Webpage](https://rickymexx.github.io/DeepRL-LTLf/)
 *   [The Environment](#the-environment)
 *   [Results](#results)
-*   [installation](#installation)
+*   [Installation](#installation)
 *   [References](#references)
+
+[Project Webpage](https://rickymexx.github.io/DeepRL-LTLf/)
 
 <br>
 
