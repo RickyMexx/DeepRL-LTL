@@ -78,6 +78,12 @@ python sac_modular.py --batch_size 64 --automatic_entropy_tuning True --modular
 
 <br><br>
 
+## Presentation
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vStkrVtoZyBgFP3kJ4hAQnWD4J9zsNRZXeU1I5B62CZHfRseHD5lXUkfp-OWOwcOh6xJvjsozc92kEN/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<br><br>
+
 ## Credits
 - [Caprari Riccardo](https://github.com/RickyMexx)
 - [Giacomini Emanuele](https://github.com/EmanueleGiacomini)
